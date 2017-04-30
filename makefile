@@ -1,6 +1,6 @@
 # Compiler and options
 CC = clang++
-CC_FLAGS = -w -I.src
+CC_FLAGS = -w -Wall -Werror
 
 # File names
 EXEC = project3
